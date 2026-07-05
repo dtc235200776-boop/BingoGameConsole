@@ -4,7 +4,16 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Console.OutputEncoding = System.Text.Encoding.UTF8;
+            Console.Title = "Bingo Game";
+            Console.WriteLine("========================");
+            Console.WriteLine();
+            Console.WriteLine("Welcome to Bingo Game!");
+            Console.WriteLine();
+            Console.WriteLine("========================");
+            Console.WriteLine();
+            Console.WriteLine("Nhan Enter de bat dau!");
+            Console.ReadLine();
         }
     }
 }
